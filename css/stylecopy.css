@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+}
+div.boton{
+    display: hidden;
+}
+div.top{
+    background-color: rgb(83, 146, 83);  
+    padding: 10px;
+}
+div.titulo{
+    margin-left: 20px;
+    color: white;  
+    float: left;
+}
+
+div.bloquetodo{
+    margin-right: 20px;
+    margin-left:50px;
+    display: flex;
+}
+div.left{
+    display:flex;
+    flex-wrap: wrap;
+    width: calc(100% - 292px);
+}
+div.right{
+    border-left:2px grey solid;
+    padding-left: 40px;  
+}
+div.img1{
+    margin-right: 100px;
+    margin-top:20px;
+}
+div.img2{
+    margin-top:20px;
+}
+div.img3{
+    margin-right: 100px;
+    margin-bottom:50px;
+    
+}
+div.img4{
+    margin-bottom:50px;
+}
+div.bottom{
+    background-color: grey;
+    padding: 5px;
+}
+p.final{
+    margin-left: 30px;
+}
+p.encuentranos{
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px){
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .menu {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .menu .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .menu:hover .dropbtn {
+        background-color: red;
+      }
+      
+      .menu-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .menu-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .menu-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .menu:hover .menu-content {
+        display: block;
+      }
+    div.titulo{
+        
+    }
+    
+    div.bloquetodo{
+        margin-right: 30px;
+        margin-left:30px;
+        display:block;
+    }
+    div.left{
+        justify-content: center;
+        margin-top: 10px;
+        width: auto;
+    }
+    div.img1{
+        margin-right: unset;
+        margin-top:unset;
+    }
+    div.img2{
+        margin-top:unset;
+    }
+    div.img3{
+        margin-right: unset;
+        margin-bottom:unset;
+        
+    }
+    div.img4{
+        margin-bottom:unset;
+    }
+    div.right{
+        border-left: 0;
+        border-top: 2px grey solid;
+        text-align: center;
+        padding-top:10px;
+        padding-left:unset;
+    }
+    div.mapa{
+        display: none;
+    }
+    div.fondo{
+        display: none;
+    }
+    div.bottom{
+        text-align: center;
+    }
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .menu {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .menu .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .menu:hover .dropbtn {
+        background-color: red;
+      }
+      
+      .menu-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .menu-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .menu-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .menu:hover .menu-content {
+        display: block;
+      }
+}
